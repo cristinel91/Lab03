@@ -46,5 +46,9 @@ public class Dictionary {
 			}
 		}
 		return paroleSbagliate;
-	}	
+	}
+	
+	public void clearAll(){
+		dizionario.clear();
+	}
 }

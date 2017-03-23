@@ -53,6 +53,9 @@ public class SpellCheckerController {
     
     @FXML
     void chooseLanguage(ActionEvent event){
+    	dizionario.clearAll();
+    	txtArea1.clear();
+    	txtArea2.clear();
     	dizionario.loadDictionary(cmbx.getValue());
     }
 
