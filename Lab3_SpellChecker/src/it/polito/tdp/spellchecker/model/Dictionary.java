@@ -45,7 +45,7 @@ public class Dictionary {
 			size=dizionario.size();
 			
 			while(trovato==false && size>=i){
-				meta=i+(int)((size-i)/2.0);
+				meta=i+(int)(((size-i)/2.0)+(((size-i)%2.0)));
 				if (dizionario.get(meta).toLowerCase().compareTo(str.toLowerCase())==0){
 					trovato=true;
 					}
